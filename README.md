@@ -23,7 +23,7 @@ Welcome to my portfolio repository! This repository houses the code for my perso
 
 ## 🔴 See it on live:
 
-[thomaslefebvre.fr](https://thomas.lefebvre.fr)
+[thomaslefebvre.fr](https://thomaslefebvre.fr)
 
 &nbsp;
 
