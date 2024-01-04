@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <header>
-      <div className="flex w-full flex-col gap-2 md:flex-row md:justify-between">
+      <div className="flex w-full flex-col gap-4 md:flex-row md:justify-between">
         <a
           href="mailto:contact@thomaslefebvre.fr"
           className="hover:text-neutral-100">

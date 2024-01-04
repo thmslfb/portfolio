@@ -7,7 +7,7 @@ const Projects = () => {
       id: 1,
       name: "Uniportal - A Linktree clone",
       description: "NextJS • Supabase • TailwindCSS",
-      href: "",
+      href: "/soon",
     },
     {
       id: 2,
@@ -34,7 +34,7 @@ const Projects = () => {
             <a
               href={project.href}
               className={`group flex w-full flex-col justify-between gap-2 rounded-md border border-neutral-700 p-4 transition-all duration-300 md:flex-row md:items-center ${
-                project.href === ""
+                project.href === "/soon"
                   ? "cursor-default pointer-events-none"
                   : "cursor-pointer hover:-translate-y-2 hover:border-neutral-400"
               }`}
@@ -44,7 +44,7 @@ const Projects = () => {
                 <p className="text-neutral-100">{project.name}</p>
                 <p>{project.description}</p>
               </div>
-              {project.href === "" ? (
+              {project.href === "/soon" ? (
                 <p className="w-fit rounded-md bg-neutral-900 px-4 py-1">
                   Soon
                 </p>
