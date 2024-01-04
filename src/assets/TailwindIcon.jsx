@@ -8,7 +8,9 @@ const TailwindIcon = () => {
       className="fill-neutral-100"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
-      xmlSpace="preserve">
+      xmlSpace="preserve"
+      role="img"
+      aria-label="TailwindCSS Icon">
       <path
         fillRule="evenodd"
         clipRule="evenodd"

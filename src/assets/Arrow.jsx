@@ -8,7 +8,9 @@ const Arrow = () => {
       viewBox="0 0 18 18"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="transition-all duration-300 group-hover:translate-x-1">
+      className="transition-all duration-300 group-hover:translate-x-1"
+      role="img"
+      aria-label="Arrow Icon">
       <path
         d="M5.25 12.75L12.75 5.25"
         stroke="#999999"

@@ -7,7 +7,9 @@ const ReactIcon = () => {
       viewBox="-11.5 -10.23174 23 20.46348"
       height="22"
       width="22"
-      className="fill-neutral-100">
+      className="fill-neutral-100"
+      role="img"
+      aria-label="React Icon">
       <title>React Logo</title>
       <circle cx="0" cy="0" r="2.05" />
       <g className="stroke-neutral-100" strokeWidth="1" fill="none">
