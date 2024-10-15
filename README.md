@@ -4,7 +4,7 @@
 
 &nbsp;
 
-![Portfolio]()
+![Portfolio](https://github.com/thmslfb/portfolio/blob/main/app/opengraph-image.png)
 
 &nbsp;
 
