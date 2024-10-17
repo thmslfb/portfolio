@@ -69,13 +69,14 @@ export default function ProjectSlugPage({
             {project.githubLink && (
               <Button
                 variant='secondary'
-                disabled={project.githubLink === 'In progress'}
-                asChild={project.githubLink !== 'In progress'}>
-                <Link href={project.githubLink} target='_blank'>
-                  {project.githubLink === 'In progress'
-                    ? 'In progress'
-                    : 'Explore on GitHub'}
-                </Link>
+                disabled={project.githubLink === 'In progress'}>
+                {project.githubLink === 'In progress' ? (
+                  'In progress'
+                ) : (
+                  <Link href={project.githubLink} target='_blank'>
+                    Explore on GitHub
+                  </Link>
+                )}
               </Button>
             )}
             {project.demoLink && (
