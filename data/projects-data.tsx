@@ -39,7 +39,7 @@ export const projects: Project[] = [
       { label: 'Language', value: 'TypeScript' },
     ],
     githubLink: 'In progress',
-    lastModified: '2024-10-14',
+    lastModified: '2024-10-17',
   },
 
   {

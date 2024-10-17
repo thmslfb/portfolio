@@ -11,7 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: process.env.NEXT_PUBLIC_BASE_URL as string,
-      lastModified: '2024-10-15',
+      lastModified: '2024-10-17',
       priority: 1.0,
     },
     {
@@ -22,7 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...projectsUrls,
     {
       url: `${process.env.NEXT_PUBLIC_BASE_URL}/stack`,
-      lastModified: '2024-10-15',
+      lastModified: '2024-10-17',
       priority: 0.7,
     },
     {
