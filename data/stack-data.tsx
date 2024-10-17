@@ -20,7 +20,7 @@ export const stacks: Stack[] = [
     id: 2,
     name: 'Supabase',
     description: 'Database',
-    src: 'https://cdn.brandfetch.io/supabase.in/w/400/h/400',
+    src: 'https://cdn.brandfetch.io/supabase.com/w/400/h/400',
     fallback: 'SB',
     href: 'https://www.supabase.io/',
   },
