@@ -31,7 +31,7 @@ export const projects: Project[] = [
     category: 'Auth',
     href: `/projects/auth-starter-kit`,
     image:
-      'https://res.cloudinary.com/dyq2t6mgd/image/upload/v1728975374/auth-starter-kit_xzwfzl.png',
+      'https://res.cloudinary.com/dyq2t6mgd/image/upload/v1729179812/auth-starter-kit_anslcb.png',
     tools: ['Lucia', 'Prisma', 'PostgreSQL', 'Supabase'],
     additionalInfo: [
       { label: 'Deployment', value: 'Vercel' },
